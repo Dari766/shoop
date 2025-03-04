@@ -10,8 +10,8 @@
 
         <label for="emausu">Correo:</label>
         <input type="email" id="emausu" name="emausu" value="<?= $_SESSION['emausu'] ?>" required>
-        <label for="emausu">Teléfono:</label>
-        <input type="email" id="celusu" name="celusu" value="<?= $_SESSION['celusu'] ?>" required>
+        <label for="celusu">Teléfono:</label>
+        <input type="celusu" id="celusu" name="celusu" value="<?= $_SESSION['celusu'] ?>" required>
         <input type="hidden" name="idusu" value="<?= $_SESSION['idusu'] ?>">
         <input type="hidden" name="ope" value="edit">
         <button type="submit" class="btn btn-primary">Guardar Cambios</button>
